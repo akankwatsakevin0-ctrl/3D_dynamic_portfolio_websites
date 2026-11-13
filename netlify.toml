@@ -1,0 +1,5 @@
+[build]
+  # The repo has no "public" folder, so build one from the portfolio page
+  # and serve it as the site's homepage.
+  command = "mkdir -p public && cp 'Kevin Akankwatsa.html' public/index.html"
+  publish = "public"
